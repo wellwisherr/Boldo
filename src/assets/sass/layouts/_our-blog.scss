@@ -1,0 +1,63 @@
+section {
+    padding: 56px 0;
+    &.our-blog {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        h3 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 72px;
+        }
+        h5 {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 20px;
+            span {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #777777;
+            }
+        }
+        p {
+            color: #000;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            margin: 20px 0;
+        }
+        h6 {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            padding: 10px 0;
+            img {
+                margin-right: 10px;
+            }
+        }
+        .load-more {
+            border: 2px solid #0A2640;
+            border-radius: 56px;
+            padding: 16px 56px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+section {
+    &.contact-us {
+        .container{
+            padding: 50px 0;
+            background: #0A2640;
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 38.83%;
+                right: -46.58%;
+                top: -269.57%;
+                bottom: 38.87%;
+                background: #1c3d5b70;
+                border-radius: 50%;
+            }
+        }
+        h3 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 72px;
+            margin-bottom: 30px;
+        }
+        .form-control{
+            margin: 0 12px 20px;
+            width: 370px;
+            background: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            border-radius: 240px;
+            height: 40px;
+            padding-left: 12px;
+        }
+        .start-btn {
+            padding: 0 56px;
+            background: #65E4A3;
+            border: 2px solid #65E4A3;
+            font-weight: 700;
+            border-radius: 40px;
+            height: 40px;
+            line-height: 28px;
+            margin-bottom: 20px;
+        }
+    }
+}

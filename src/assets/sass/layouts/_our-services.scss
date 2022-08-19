@@ -1,0 +1,36 @@
+section{
+    &.our-services {
+		padding: 82px 0 99px; 
+		background: #0A2640;
+
+		h4 {
+			font-family: "Open Sans";
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 32px;
+		}
+
+		h3 {
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 72px;
+			margin-bottom: 70px;
+		}
+
+		img {
+			margin-bottom: 24px;
+			;
+		}
+
+		p {
+			font-size: 24px;
+			line-height: 36px;
+		}
+		.btn-link {
+			text-decoration: none;
+			border-bottom: 1px solid;
+			border-radius: 0;
+			margin-top: 28px;
+		}
+	} 
+}

@@ -1,0 +1,42 @@
+nav{
+    &.navbar{
+        padding:28px 0;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 1293px;
+            height: 1293px;
+            left: 777px;
+            top: -789px;
+            background: #f1f1f1;
+            z-index: -1;
+            border-radius: 50%;
+        }
+    .navbar-brand{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 43.25px;
+        line-height: 34px;
+        img {
+            margin-right: 11px;
+        }
+    }
+    .navbar-nav {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        .nav-link{
+            margin:0 20px;
+            color: #0A2640;
+            &.login{
+                border: 2px solid #0A2640;
+                border-radius: 24px;
+                padding: 10px 39px;
+                margin-right: 0;
+            }
+        }
+     }
+    }
+}
